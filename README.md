@@ -3,7 +3,9 @@ This repo contains a python script to calculate standard performance metrics use
 
 The file **myfunctions.py** contains two methods:
 - **perfMetrics(pred,Y)** which takes the predictions (pred) and true labels (Y) to calculate:
+
 -- AUC (Area Under the Receiver Operating Curve).
+
     OPT_ER: Optimum Point on the ROC.
     EER (Equal Error Rate): Operating point on ROC for equal True Positive Rate and False Positive Rate.
     Accuracy: Correct classification, when the probability threshold is set to 0.5 for classification between binary classes
